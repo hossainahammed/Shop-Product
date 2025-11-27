@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-image: url('your-image.jpg'); /* Replace 'your-image.jpg' with your image URL */
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            padding: 10px;
+        }
+
+        .sticky-container {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the sticky container */
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        /* Add some additional styling for the content */
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+    <title>Sticky Header Example</title>
+</head>
+<link rel="stylesheet"href="bootstrap-5.3.2-dist\css\bootstrap.min.css">
+<body>
+    <header>
+        <div class="sticky-container">
+            <!-- Your sticky content goes here -->
+            <h1>My Sticky Header</h1>
+        </div>
+        <!-- Other header content goes here -->
+    </header>
+
+    <section>
+        <p>This is some content. Scroll down to see the sticky header in action.</p>
+    </section>
+
+    <footer>
+        <p>This is the footer.</p>
+    </footer>
+    <script src="bootstrap-5.3.2-dist\js\bootstrap.bundle.min.js"></script>
+</body>
+</html>
